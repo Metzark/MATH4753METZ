@@ -1,4 +1,4 @@
-#' Title
+#' myncurve
 #'
 #' @param mu mean
 #' @param sigma standard deviation
