@@ -2,7 +2,7 @@
 % Please edit documentation in R/myncurve.R
 \name{myncurve}
 \alias{myncurve}
-\title{Title}
+\title{myncurve}
 \usage{
 myncurve(mu, sigma, a)
 }
@@ -17,7 +17,7 @@ myncurve(mu, sigma, a)
 curve and list of mean, standard deviation, and area
 }
 \description{
-Title
+myncurve
 }
 \examples{
 myncurve(5,1, 4)
