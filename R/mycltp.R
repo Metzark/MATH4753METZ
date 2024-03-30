@@ -3,13 +3,14 @@
 #' @param n sample size
 #' @param iter number of iterations
 #' @param lambda poisson lambda
+#' @param ... additional arguments for hist()
 #'
 #' @return
 #' @export
 #'
 #' @examples
 #' mycltp(n=25, iter=10000, lambda=4)
-mycltp=function(n,iter,lambda=10){
+mycltp=function(n,iter,lambda=10,...){
   y=rpois(n*iter,lambda=lambda)
   data=matrix(y,nr=n,nc=iter,byrow=TRUE)## these are placed in a vector w
   w=apply(data,2,mean)
