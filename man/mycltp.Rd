@@ -4,7 +4,7 @@
 \alias{mycltp}
 \title{mycltp}
 \usage{
-mycltp(n, iter, lambda = 10)
+mycltp(n, iter, lambda = 10, ...)
 }
 \arguments{
 \item{n}{sample size}
@@ -12,6 +12,8 @@ mycltp(n, iter, lambda = 10)
 \item{iter}{number of iterations}
 
 \item{lambda}{poisson lambda}
+
+\item{...}{additional arguments for hist()}
 }
 \description{
 mycltp
