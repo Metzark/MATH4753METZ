@@ -2,7 +2,7 @@
 % Please edit documentation in R/mybin.R
 \name{mybin}
 \alias{mybin}
-\title{Title}
+\title{mybin}
 \usage{
 mybin(iter = 100, n = 10, p = 0.5)
 }
@@ -14,10 +14,10 @@ mybin(iter = 100, n = 10, p = 0.5)
 \item{p}{probability}
 }
 \value{
-barplot
+a barplot
 }
 \description{
-Title
+mybin
 }
 \examples{
 mybin(100, 10, 0.7)

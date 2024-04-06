@@ -15,6 +15,9 @@ mycltp(n, iter, lambda = 10, ...)
 
 \item{...}{additional arguments for hist()}
 }
+\value{
+a plot
+}
 \description{
 mycltp
 }

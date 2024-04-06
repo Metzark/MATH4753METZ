@@ -4,7 +4,7 @@
 \alias{myncurve}
 \title{myncurve}
 \usage{
-myncurve(mu, sigma, a)
+myncurve(mu, sigma, a, x)
 }
 \arguments{
 \item{mu}{mean}
@@ -12,6 +12,8 @@ myncurve(mu, sigma, a)
 \item{sigma}{standard deviation}
 
 \item{a}{max x-value of shaded region}
+
+\item{x}{p value}
 }
 \value{
 curve and list of mean, standard deviation, and area

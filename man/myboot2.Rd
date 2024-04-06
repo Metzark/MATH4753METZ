@@ -17,10 +17,10 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{cx}{padding}
 
-\item{...}{}
+\item{...}{extra arguments for hist}
 }
 \value{
-list with confidence interal, function used, and x data vector
+list with confidence interal, function used, x data vector, xstat, and point estimate
 }
 \description{
 Title myboot2

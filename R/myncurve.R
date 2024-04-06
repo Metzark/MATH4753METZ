@@ -3,13 +3,16 @@
 #' @param mu mean
 #' @param sigma standard deviation
 #' @param a max x-value of shaded region
+#' @param x p value
 #'
 #' @return curve and list of mean, standard deviation, and area
 #' @export
+#' @importFrom graphics curve polygon text
+#' @importFrom stats pnorm
 #'
 #' @examples
 #' myncurve(5,1, 4)
-myncurve = function(mu, sigma, a){
+myncurve = function(mu, sigma, a,x){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
   xcurve=seq(mu-3*sigma,a,length=1000)
   ycurve=dnorm(xcurve,mean=mu,sd=sigma)
