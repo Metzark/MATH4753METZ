@@ -56,4 +56,8 @@ The myquad function returns x^2 - 5*x + 7 for a specified x.
 myquad(x = 1:10)
 ```
 
+## FIREDAMAGE Dataset
+```{r}
+fire
+```
 
