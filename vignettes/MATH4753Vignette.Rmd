@@ -48,7 +48,7 @@ The myncurve function generates a curve and plots a probability under the curve.
 myncurve(5,1, 4)
 ```
 
-## mycltp
+## myquad
 
 The myquad function returns x^2 - 5*x + 7 for a specified x.
 
