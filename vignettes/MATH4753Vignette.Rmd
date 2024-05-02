@@ -1,0 +1,59 @@
+---
+title: "MATH4753Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MATH4753Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753METZ)
+```
+
+# What is included
+
+This package contains various statistical functions and one dataset.
+
+# Function Examples
+
+## myboot2
+
+The myboot2 function uses bootstraping to generate a confidence interval and point estimate.
+
+```{r}
+myboot2(x=rnorm(25,mean=25,sd=10))
+```
+
+## mybin
+
+The mybin function runs a binomial simulation and generates a plot of succesess.
+
+```{r}
+mybin(100, 10, 0.7)
+```
+
+## myncurve
+
+The myncurve function generates a curve and plots a probability under the curve.
+
+```{r}
+myncurve(5,1, 4)
+```
+
+## mycltp
+
+The myquad function returns x^2 - 5*x + 7 for a specified x.
+
+```{r}
+myquad(x = 1:10)
+```
+
+
